@@ -1,0 +1,56 @@
+# Systemowe pliki
+.DS_Store
+Thumbs.db
+
+# Pliki Pythona
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+
+# Pliki środowiska wirtualnego
+venv/
+.env
+*.env
+
+# Pliki logów
+logs/
+*.log
+
+# Pliki baz danych
+*.sqlite3
+*.db
+*.sql
+dump.sql
+
+# Pliki cache
+.cache/
+__pycache__/
+*.pyc
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.*
+.env.docker
+*.pid
+
+# Pliki edytorów
+.vscode/
+.idea/
+*.iml
+
+# Pliki generowane przez Jupyter
+.ipynb_checkpoints/
+
+# Pliki backup
+*.bak
+*.tmp
+*.swp
+
+# Node.js (jeśli będzie używany)
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
